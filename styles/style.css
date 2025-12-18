@@ -1,0 +1,64 @@
+html{
+    font-size: 10px;
+    font-family: "Alice", serif;
+    color:#ff5500;
+    background-color: #e56b46;
+}
+
+h1{
+    color: #ff5500;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 3px 3px 1px rgb(3, 108, 17);
+}
+
+li{
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 1px;
+}   
+
+p,h6{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.container{
+    padding: 5px;
+    text-align: center;
+}
+
+.centerEm{
+    padding: 5px;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    padding: 7px 7px 7px 7px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+a{
+    display: inline-block;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #9ff8a5;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
