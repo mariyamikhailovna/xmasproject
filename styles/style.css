@@ -98,7 +98,7 @@ h2{ /* Header */
     font-size: 30px;
     text-align: center;
     margin: 0;
-    padding: 10px 0;
+    padding: 5px 0;
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
@@ -106,7 +106,6 @@ q{ /* Eclipse First, The Rest Nowhere */
     color: #ffffff;
     font-size: 15px;
     margin: 0;
-    padding: 10px 0;
 }
 
 li{ /* Descriptions of Horses */
