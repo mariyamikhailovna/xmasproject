@@ -7,11 +7,27 @@ html{
 
 h1{
     color: #ff5500;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     margin: 0;
     padding: 10px 0;
     text-shadow: 3px 3px 1px rgb(3, 108, 17);
+}
+
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+q{
+    color: #7e7e7e;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
 }
 
 li{
