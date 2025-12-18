@@ -1,11 +1,86 @@
-html{
-    font-size: 10px;
+html{ /*General Settings*/
     font-family: "Alice", serif;
-    color:#ff5500;
+}
+
+header{
+    background-color: gray;
+}
+
+body{
+    margin: 0;
     background-color: #e56b46;
 }
 
-h1{
+img{ /*Horse Image*/
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+main { /*Box containing Horse Info*/
+  width: 600px;
+  margin: 0px auto;
+  background-color: #9ff8a5;
+  padding: 5px 20px 5px 20px;
+  border: 5px solid black;
+}
+
+nav { /*Navigation Bar*/
+  margin-top: 10px
+}
+
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+} 
+
+nav ul li{ /*List inside navigation bar*/
+  border: 2px solid black;
+  display: block;   
+  color: white;
+}
+
+nav a {
+    text-decoration: none; 
+    color: white;
+    padding: 14px 15px;
+}
+
+nav a:visited{
+    color: white;
+}
+
+.center{ /*Center these elements*/
+    padding: 5px;
+    text-align: center;
+}
+
+.button{ /*Change Color Button*/
+    display: inline-block;
+    padding: 7px 7px 7px 7px;
+    border: 2px solid black;
+    background-color: aliceblue;        
+    color:#ff5500;
+}
+
+#foot{ /*All Rights Reserved*/
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#horse{ /*IRL Horse Link*/
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+h1{ /*Highlight of Main*/
     color: #ff5500;
     font-size: 45px;
     text-align: center;
@@ -14,7 +89,7 @@ h1{
     text-shadow: 3px 3px 1px rgb(3, 108, 17);
 }
 
-h2{
+h2{ /* Header */
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -23,58 +98,24 @@ h2{
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
-q{
-    color: #7e7e7e;
+q{ /* Eclipse First, The Rest Nowhere */
+    color: #ffffff;
     font-size: 15px;
     margin: 0;
     padding: 10px 0;
 }
 
-li{
+li{ /* Descriptions of Horses */
     font-size: 18px;
     line-height: 1;
     letter-spacing: 1px;
+    color:#ff5500;
 }   
 
-p,h6{
+p,h6{ /* Horse Monicker and Change Button */
+    color:#ff5500;
     font-size: 20px;
     text-align: center;
     margin: 0;
     padding: 10px 0;
-}
-
-.container{
-    padding: 5px;
-    text-align: center;
-}
-
-.centerEm{
-    padding: 5px;
-    text-align: center;
-}
-
-.button{
-    display: inline-block;
-    padding: 7px 7px 7px 7px;
-    border: 2px solid black;
-    background-color: aliceblue;
-}
-
-a{
-    display: inline-block;
-    font-size: 20px;
-}
-
-img{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #9ff8a5;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
 }
