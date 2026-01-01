@@ -3,16 +3,30 @@ html{ /*General Settings*/
 }
 
 header{
-    background-color: gray;
+    background-image: url("../images/bgc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer{
-    background-color: gray;
+    background-image: url("../images/bgc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
     margin: 0;
-    background-color: #e56b46;
+    background-image: url("../images/fbc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.index{
+    background-image: url("../images/fbg.png");
+}
+
+body.fantasygacha{
+    background-image: url("../images/fbf.png");
 }
 
 img{ /*Horse Image*/
@@ -52,17 +66,17 @@ nav ul
 nav ul li{ /*List inside navigation bar*/
   border: 2px solid black;
   display: block;   
-  color: white;
+  color:#000000;
 }
 
 nav a {
     text-decoration: none; 
-    color: white;
+    color: #000000;
     padding: 14px 15px;
 }
 
 nav a:visited{
-    color: white;
+    color: #000000;
 }
 
 .center{ /*Center these elements*/
@@ -79,7 +93,7 @@ nav a:visited{
 }
 
 #foot{ /*All Rights Reserved*/
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     padding: 10px 0;
 }
@@ -100,16 +114,16 @@ h1{ /*Highlight of Main*/
 }
 
 h2{ /* Header */
-    color: #ffffff;
+    color: #000000;
     font-size: 30px;
     text-align: center;
     margin: 0;
     padding: 5px 0;
-    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
 }
 
 q{ /* Eclipse First, The Rest Nowhere */
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     margin: 0;
 }
