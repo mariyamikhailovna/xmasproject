@@ -18,7 +18,7 @@ body{
     margin: 0;
     background-image: url("../images/fbc.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 body.index{
@@ -30,6 +30,12 @@ body.fantasygacha{
 }
 
 img{ /*Horse Image*/
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+video{
     display: block;
     margin: 0 auto;
     max-width: 100%;
