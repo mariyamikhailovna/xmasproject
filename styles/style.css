@@ -3,15 +3,11 @@ html{ /*General Settings*/
 }
 
 header{
-    background-image: url("../images/bgc.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: rgb(230, 230, 230);
 }
 
 footer{
-    background-image: url("../images/bgc.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: rgb(230, 230, 230);
 }
 
 body{
@@ -44,14 +40,18 @@ video{
 main { /*Box containing Horse Info*/
   width: 600px;
   margin: 0px auto;
-  background-color: #9ff8a4;
+  background-color: rgba(255, 255, 255, 0.91);
   padding: 5px 20px 5px 20px;
-  border: 5px solid black;
+  border-left: 4px solid rgba(0, 0, 0, 0.092);
+  border-right: 4px solid rgba(0, 0, 0, 0.092);
 }
 
+main a{
+    text-decoration: none;
+}
 main h2{
     font-size: 20px;
-    color: blue;
+    color: rgb(0, 101, 0);
     text-shadow: 0px 0px 0px;
 }
 
@@ -116,7 +116,7 @@ h1{ /*Highlight of Main*/
     text-align: center;
     margin: 0;
     padding: 0px 0;
-    text-shadow: 3px 3px 1px rgb(3, 108, 17);
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
 }
 
 h2{ /* Header */
