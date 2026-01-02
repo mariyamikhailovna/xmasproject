@@ -11,7 +11,13 @@ background-color: rgb(230, 230, 230);
 }
 
 body{
-    margin: 0;
+    margin: 0px auto;
+    background-image: url("../images/chara.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body.media{
     background-image: url("../images/fbc.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -19,10 +25,14 @@ body{
 
 body.index{
     background-image: url("../images/fbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 body.fantasygacha{
     background-image: url("../images/fbf.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 img{ /*Horse Image*/
@@ -147,4 +157,58 @@ p,h6{ /* Horse Monicker and Change Button */
     text-align: center;
     margin: 0;
     padding: 10px 0;
+}
+
+.tiles{
+width: 250px;
+height: 250px;
+border: 2px solid black;
+background-color: rgba(225, 223, 223, 0.9);
+margin: 10px;
+}
+
+.imgtiles{
+    width: 250px;
+    height: 210px;
+}
+
+div.tiles h3{
+    text-align: center;
+}
+
+div.tiles a{
+    color:rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+div.imgtiles img{
+  width: 250px;
+  height: 225px;
+  display: block;
+}
+
+#suzuka img{
+  background-color: #e18066;
+}
+
+#mcqueen img{
+  background-color: #dccaee;
+}
+
+#rudolf img{
+  background-color: #9e8156;
+}
+
+#vega img{
+  background-color: #356ebd;
+}
+
+#mambo img{
+  background-color: #bc8f88;
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;  
 }

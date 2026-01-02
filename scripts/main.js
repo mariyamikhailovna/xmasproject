@@ -20,4 +20,5 @@ p.addEventListener("click", () => {
     h6.textContent = "The Otherwordly Frontrunner";
   }
 }
+
 });
