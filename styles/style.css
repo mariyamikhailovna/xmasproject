@@ -166,22 +166,105 @@ p,h6{ /* Horse Monicker and Change Button */
 }
 
 .suzuka a{
-    color: #dc2626;
+    color: #ff5500;
 }
 .suzuka h1{
-    color: #dc2626;
+    color: #ff5500;
 }
 .suzuka .button{
-    background-color: #dc2626;
+    background-color: #ff5500;
     color: #ffffff;
 }
 .suzuka h6{
-    color: #dc2626;
+    color: #ff5500;
 }
 .suzuka li{
-    color: #dc2626;
+    color: #ff5500;
 }
 
+.vega{
+    background-color: rgb(232, 179, 109);
+}
+
+.vega a{
+    color: #356ebd;
+}
+.vega h1{
+    color: #356ebd;
+}
+.vega .button{
+    background-color: #356ebd;
+    color: #ffffff;
+}
+.vega h6{
+    color: #356ebd;
+}
+.vega li{
+    color: #356ebd;
+}
+
+.rudolf{
+    background-color: rgb(255, 248, 60);
+}
+
+.rudolf a{
+    color: #9e8156;
+}
+.rudolf h1{
+    color: #9e8156;
+}
+.rudolf .button{
+    background-color: #9e8156;
+    color: #ffffff;
+}
+.rudolf h6{
+    color: #9e8156;
+}
+.rudolf li{
+    color: #9e8156;
+}
+
+.mcqueen{
+    background-color: rgb(83, 83, 83);
+}
+
+.mcqueen a{
+    color: #dccaee;
+}
+.mcqueen h1{
+    color: #dccaee;
+}
+.mcqueen .button{
+    background-color: #dccaee;
+    color: #373737;
+}
+.mcqueen h6{
+    color: #dccaee;
+}
+.mcqueen li{
+    color: #dccaee;
+}
+
+.mambo{
+    background-color: rgb(49, 34, 7);
+}
+
+.mambo a{
+    color: #bc8f88;
+}
+.mambo h1{
+    color: #bc8f88;
+}
+.mambo .button{
+    background-color: #bc8f88;
+    color: rgb(49, 34, 7);
+}
+.mambo h6{
+    color: #bc8f88;
+}
+.mambo li{
+    color: #bc8f88;
+}
 /* Tiles for characters.html  --------------------------------------------------------------------------- */
 .tiles{
 width: 250px;
