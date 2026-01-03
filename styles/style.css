@@ -2,12 +2,28 @@ html{ /*General Settings*/
     font-family: "Alice", serif;
 }
 
-header{
+header{ 
 background-color: rgb(230, 230, 230);
 }
 
 footer{
 background-color: rgb(230, 230, 230);
+}
+
+h2{ /* Qiu's Uma Musume Fanpage */
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+
+q{ /* Eclipse First, The Rest Nowhere */
+    color: #000000;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
 }
 
 body{
@@ -35,19 +51,20 @@ body.fantasygacha{
     background-size: 100% 100%;
 }
 
-img{ /*Horse Image*/
+/* DEFAULT FOR MAIN * ---------------------------------------------------------------------------*/
+img{ /* general settings for images */
     display: block;
     margin: 0 auto;
     max-width: 100%;
 }
 
-video{
+video{ /* general settings for videos */
     display: block;
     margin: 0;
     max-width: 100%;
 }
 
-main { /*Box containing Horse Info*/
+main { /*Box*/
   width: 600px;
   margin: 0px auto;
   background-color: rgba(255, 255, 255, 0.91);
@@ -56,16 +73,27 @@ main { /*Box containing Horse Info*/
   border-right: 4px solid rgba(0, 0, 0, 0.092);
 }
 
-main a{
+main h1{ /*Main Text*/
+    color: #ff5500;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+main a{ /*Links*/
     text-decoration: none;
 }
+
 main h2{
     font-size: 20px;
     color: rgb(0, 101, 0);
     text-shadow: 0px 0px 0px;
 }
 
-nav { /*Navigation Bar*/
+/* NAVIGATION BAR ---------------------------------------------------------------------------*/*/
+nav {
   margin-top: 10px;
 }
 
@@ -100,12 +128,11 @@ nav a:visited{
     text-align: center;
 }
 
+/* Specific Characters.html settings ---------------------------------------------------------------------------*/
 .button{ /*Change Color Button*/
     display: inline-block;
     padding: 7px 7px 7px 7px;
-    border: 2px solid black;
-    background-color: aliceblue;        
-    color:#ff5500;
+    border: 2px ridge black;
 }
 
 #foot{ /*All Rights Reserved*/
@@ -116,49 +143,46 @@ nav a:visited{
 
 #horse{ /*IRL Horse Link*/
     display: inline-block;
-    font-size: 20px;
+    text-decoration: underline;
+    font-size: 14px;
     padding: 5px 0;
-}
-
-h1{ /*Highlight of Main*/
-    color: #ff5500;
-    font-size: 45px;
-    text-align: center;
-    margin: 0;
-    padding: 0px 0;
-    text-shadow: 3px 3px 1px rgb(0, 0, 0);
-}
-
-h2{ /* Header */
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    margin: 0;
-    padding: 5px 0;
-    text-shadow: 2px 2px 1px rgb(255, 255, 255);
-}
-
-q{ /* Eclipse First, The Rest Nowhere */
-    color: #000000;
-    font-size: 15px;
-    margin: 0;
 }
 
 li{ /* Descriptions of Horses */
     font-size: 18px;
     line-height: 1;
     letter-spacing: 1px;
-    color:#ff5500;
 }   
 
 p,h6{ /* Horse Monicker and Change Button */
-    color:#ff5500;
     font-size: 20px;
-    text-align: center;
+    text-align: center; 
     margin: 0;
     padding: 10px 0;
 }
 
+.suzuka{
+    background-color: rgb(155, 247, 148);
+}
+
+.suzuka a{
+    color: #dc2626;
+}
+.suzuka h1{
+    color: #dc2626;
+}
+.suzuka .button{
+    background-color: #dc2626;
+    color: #ffffff;
+}
+.suzuka h6{
+    color: #dc2626;
+}
+.suzuka li{
+    color: #dc2626;
+}
+
+/* Tiles for characters.html  --------------------------------------------------------------------------- */
 .tiles{
 width: 250px;
 height: 250px;
@@ -187,6 +211,13 @@ div.imgtiles img{
   display: block;
 }
 
+div.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;  
+}
+
+/* Background color of tiles --------------------------------------------------------------------------- */
 #suzuka img{
   background-color: #e18066;
 }
@@ -205,10 +236,4 @@ div.imgtiles img{
 
 #mambo img{
   background-color: #bc8f88;
-}
-
-div.container{
-    display: flex;
-    justify-content: center;
-    gap: 10px;  
 }
