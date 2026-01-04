@@ -79,7 +79,7 @@ main h1{ /*Main Text*/
     text-align: center;
     margin: 0;
     padding: 0px 0;
-    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
 main a{ /*Links*/
@@ -162,7 +162,7 @@ p,h6{ /* Horse Monicker and Change Button */
 }
 
 .suzuka{
-    background-color: rgb(155, 247, 148);
+    background-color: rgb(169, 238, 178);
 }
 
 .suzuka a{
@@ -183,7 +183,7 @@ p,h6{ /* Horse Monicker and Change Button */
 }
 
 .vega{
-    background-color: rgb(232, 179, 109);
+    background-color: rgb(213, 165, 102);
 }
 
 .vega a{
@@ -204,24 +204,24 @@ p,h6{ /* Horse Monicker and Change Button */
 }
 
 .rudolf{
-    background-color: rgb(255, 248, 60);
+    background-color: #fadf88;
 }
 
 .rudolf a{
-    color: #9e8156;
+    color: #825f2a;
 }
 .rudolf h1{
-    color: #9e8156;
+    color: #825f2a;
 }
 .rudolf .button{
-    background-color: #9e8156;
+    background-color: #825f2a;
     color: #ffffff;
 }
 .rudolf h6{
-    color: #9e8156;
+    color: #825f2a;
 }
 .rudolf li{
-    color: #9e8156;
+    color: #825f2a;
 }
 
 .mcqueen{
@@ -310,7 +310,7 @@ div.container{
 }
 
 #rudolf img{
-  background-color: #9e8156;
+  background-color: #825f2a;
 }
 
 #vega img{
