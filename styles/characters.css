@@ -1,0 +1,178 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url("../images/fbc.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mcontainer{
+        display: flex;
+        gap: 10px;
+    }
+
+    main { 
+    flex: 0 0 55%; 
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.91);
+    padding: 40px 20px 5px 20px;
+    }
+
+    .info{
+        margin: 0px 0px 0px 10px;
+    }
+
+    .info li { /* Descriptions of Horses */
+        font-size: 22px;
+        line-height: 1;
+        letter-spacing: 1px;
+    }   
+
+    .info h1{ 
+        font-size: 45px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .info h2{
+        text-align: left;
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .info h3{
+        margin: 0px;
+        font-size: 22px;
+    }
+
+    .info h4{
+        font-size: 30px;
+    }
+
+    .info h6{
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .info p{
+        font-size: 20px;
+        margin-right: 20px;      
+    }
+
+    main h6{
+        font-size: 32px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .center{ /*center elements*/
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Specific Characters.html settings ---------------------------------------------------------------------------*/
+    .button{ /*Change Color Button*/
+        display: inline-block;
+        width: 200px;
+        padding: 7px;
+        border: 2px ridge black;
+        background-color: white;
+    }
+
+    #horse{ /*IRL Horse Link*/
+        display: inline-block;
+        text-decoration: underline;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    main p{
+        font-size: 20px;
+        text-align: center; 
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    a{
+        color: black;
+    }
+
+    .suzuka{
+        background-color: rgb(155, 223, 164);
+    }
+
+    .suzukaquote{
+        color:rgb(0, 148, 20);
+    }
+
+    .vega{
+        background-color: rgb(213, 165, 102);
+    }
+
+    .rudolf{
+        background-color: #f6ec94;
+    }
+
+    .mcqueen{
+        background-color: rgb(83, 83, 83);
+    }
+
+    .mambo{
+        background-color: rgb(49, 34, 7);
+    }
+
+    /* Tiles for characters.html  --------------------------------------------------------------------------- */
+    .tiles{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgba(225, 223, 223, 0.9);
+    margin: 10px;
+    }
+
+    .imgtiles{
+        width: 250px;
+        height: 210px;
+    }
+
+    div.tiles h3{
+        text-align: center;
+    }
+
+    div.tiles a{
+        color:rgb(40, 40, 40);
+        text-decoration: none;
+    }
+
+    div.imgtiles img{
+    width: 250px;
+    height: 225px;
+    display: block;
+    }
+
+    div.container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;  
+    }
+
+    /* Background color of tiles --------------------------------------------------------------------------- */
+    #suzuka img{
+    background-color: #e18066;
+    }
+
+    #mcqueen img{
+    background-color: #dccaee;
+    }
+
+    #rudolf img{
+    background-color: #825f2a;
+    }
+
+    #vega img{
+    background-color: #356ebd;
+    }
+
+    #mambo img{
+    background-color: #bc8f88;
+    }

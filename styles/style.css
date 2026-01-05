@@ -1,8 +1,14 @@
-    html,body{ /*General Settings*/
+    html,body{
         font-family: "Alice", serif;
         margin: auto;
     }
-
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
     header{ 
         background-color: rgb(230, 230, 230);
     }
@@ -10,49 +16,30 @@
     footer{
         background-color: rgb(230, 230, 230);
         margin-top: auto;
+        text-align: center;
     }
 
     h2{ /* Qiu's Uma Musume Fanpage */
         color: #000000;
         font-size: 30px;
         text-align: center;
-        margin: 0;
+        margin: 0px;
         padding: 5px 0;
         text-shadow: 2px 2px 1px rgb(255, 255, 255);
     }
 
     q{ /* Eclipse First, The Rest Nowhere */
+        display: block;
         color: #000000;
         font-size: 15px;
-        margin: 0;
+        padding: 0px 0px 5px 0px;
         text-align: center;
     }
 
-    body{
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        background-image: url("../images/chara.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    body.media{
-        background-image: url("../images/fbc.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    body.index{
-        background-image: url("../images/fbg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    body.fantasygacha{
-        background-image: url("../images/fbf.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+    #foot{ /*All Rights Reserved*/
+        color: #000000;
+        font-size: 15px;
+        padding: 10px 0;
     }
 
     /* DEFAULT FOR MAIN * ---------------------------------------------------------------------------*/
@@ -64,37 +51,8 @@
 
     video{ /* general settings for videos */
         display: block;
-        margin: 0;
+        margin: 0 auto;
         max-width: 100%;
-    }
-
-    main { /*Box*/
-    width: 600px;
-    min-height: 100vh;
-    margin: 0px auto;
-    background-color: rgba(255, 255, 255, 0.91);
-    padding: 5px 20px 5px 20px;
-    border-left: 4px solid rgba(0, 0, 0, 0.092);
-    border-right: 4px solid rgba(0, 0, 0, 0.092);
-    }
-
-    main h1{ /*Main Text*/
-        color: #ff5500;
-        font-size: 45px;
-        text-align: center;
-        margin: 0;
-        padding: 0px 0;
-        text-shadow: 3px 3px 4px rgb(0, 0, 0);
-    }
-
-    main a{ /*Links*/
-        text-decoration: none;
-    }
-
-    main h2{
-        font-size: 20px;
-        color: rgb(0, 101, 0);
-        text-shadow: 0px 0px 0px;
     }
 
     /* NAVIGATION BAR ---------------------------------------------------------------------------*/*/
@@ -102,14 +60,12 @@
     margin-top: 10px;
     }
 
-    nav ul 
-    {
+    nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    
     } 
 
     nav ul li{ /*List inside navigation bar*/
@@ -126,203 +82,4 @@
 
     nav a:visited{
         color: #000000;
-    }
-
-    .center{ /*Center these elements*/
-        padding: 5px;
-        text-align: center;
-    }
-
-    /* Specific Characters.html settings ---------------------------------------------------------------------------*/
-    .button{ /*Change Color Button*/
-        display: inline-block;
-        padding: 7px 7px 7px 7px;
-        border: 2px ridge black;
-    }
-
-    #foot{ /*All Rights Reserved*/
-        color: #000000;
-        font-size: 15px;
-        padding: 10px 0;
-    }
-
-    #horse{ /*IRL Horse Link*/
-        display: inline-block;
-        text-decoration: underline;
-        font-size: 14px;
-        padding: 5px 0;
-    }
-
-    li{ /* Descriptions of Horses */
-        font-size: 18px;
-        line-height: 1;
-        letter-spacing: 1px;
-    }   
-
-    p,h6{ /* Horse Monicker and Change Button */
-        font-size: 20px;
-        text-align: center; 
-        margin: 0;
-        padding: 10px 0;
-    }
-
-    .suzuka{
-        background-color: rgb(169, 238, 178);
-    }
-
-    .suzuka a{
-        color: #ff5500;
-    }
-    .suzuka h1{
-        color: #ff5500;
-    }
-    .suzuka .button{
-        background-color: #ff5500;
-        color: #ffffff;
-    }
-    .suzuka h6{
-        color: #ff5500;
-    }
-    .suzuka li{
-        color: #ff5500;
-    }
-
-    .vega{
-        background-color: rgb(213, 165, 102);
-    }
-
-    .vega a{
-        color: #356ebd;
-    }
-    .vega h1{
-        color: #356ebd;
-    }
-    .vega .button{
-        background-color: #356ebd;
-        color: #ffffff;
-    }
-    .vega h6{
-        color: #356ebd;
-    }
-    .vega li{
-        color: #356ebd;
-    }
-
-    .rudolf{
-        background-color: #fadf88;
-    }
-
-    .rudolf a{
-        color: #825f2a;
-    }
-    .rudolf h1{
-        color: #825f2a;
-    }
-    .rudolf .button{
-        background-color: #825f2a;
-        color: #ffffff;
-    }
-    .rudolf h6{
-        color: #825f2a;
-    }
-    .rudolf li{
-        color: #825f2a;
-    }
-
-    .mcqueen{
-        background-color: rgb(83, 83, 83);
-    }
-
-    .mcqueen a{
-        color: #dccaee;
-    }
-    .mcqueen h1{
-        color: #dccaee;
-    }
-    .mcqueen .button{
-        background-color: #dccaee;
-        color: #373737;
-    }
-    .mcqueen h6{
-        color: #dccaee;
-    }
-    .mcqueen li{
-        color: #dccaee;
-    }
-
-    .mambo{
-        background-color: rgb(49, 34, 7);
-    }
-
-    .mambo a{
-        color: #bc8f88;
-    }
-    .mambo h1{
-        color: #bc8f88;
-    }
-    .mambo .button{
-        background-color: #bc8f88;
-        color: rgb(49, 34, 7);
-    }
-    .mambo h6{
-        color: #bc8f88;
-    }
-    .mambo li{
-        color: #bc8f88;
-    }
-
-    /* Tiles for characters.html  --------------------------------------------------------------------------- */
-    .tiles{
-    width: 250px;
-    height: 250px;
-    border: 2px solid black;
-    background-color: rgba(225, 223, 223, 0.9);
-    margin: 10px;
-    }
-
-    .imgtiles{
-        width: 250px;
-        height: 210px;
-    }
-
-    div.tiles h3{
-        text-align: center;
-    }
-
-    div.tiles a{
-        color:rgb(40, 40, 40);
-        text-decoration: none;
-    }
-
-    div.imgtiles img{
-    width: 250px;
-    height: 225px;
-    display: block;
-    }
-
-    div.container{
-        display: flex;
-        justify-content: center;
-        gap: 10px;  
-    }
-
-    /* Background color of tiles --------------------------------------------------------------------------- */
-    #suzuka img{
-    background-color: #e18066;
-    }
-
-    #mcqueen img{
-    background-color: #dccaee;
-    }
-
-    #rudolf img{
-    background-color: #825f2a;
-    }
-
-    #vega img{
-    background-color: #356ebd;
-    }
-
-    #mambo img{
-    background-color: #bc8f88;
     }
