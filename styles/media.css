@@ -1,0 +1,64 @@
+body{
+    background-image: url("../images/fbf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+
+.content{
+    text-align: center;
+}
+
+.dropdown button{
+    width: 800px;
+    background-color: rgb(255, 218, 84);
+    padding: 10px 15px;
+    border: solid 2px rgba(0, 0, 0, 0.595);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dropdown:hover button{
+    background-color: rgb(254, 210, 53);
+}
+
+.dropdown .content{
+    min-width: 800px;
+    display: none;
+    position: absolute;
+    background-color: rgb(167, 228, 120);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.814);
+    max-height: 160px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown .content a{
+    display: block;
+    border-bottom: 2px solid black;
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}

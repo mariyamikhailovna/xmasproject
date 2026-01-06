@@ -124,14 +124,14 @@
     /* Tiles for characters.html  --------------------------------------------------------------------------- */
     .tiles{
     width: 250px;
-    height: 250px;
+    height: 260px;
     border: 2px solid black;
     background-color: rgba(225, 223, 223, 0.9);
     margin: 10px;
     }
 
     .imgtiles{
-        width: 250px;
+        width: 247px;
         height: 210px;
     }
 
@@ -153,7 +153,12 @@
     div.container{
         display: flex;
         justify-content: center;
-        gap: 10px;  
+        flex-wrap: wrap;
+        gap: 10px;
+        align-content: flex-start;  
+        border-top: 2px solid rgba(0, 0, 0, 0.75);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.75);
+        height: 100vh;
     }
 
     /* Background color of tiles --------------------------------------------------------------------------- */
