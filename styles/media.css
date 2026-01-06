@@ -14,6 +14,8 @@ main {
 }
 
 .dropdown{
+  width: 100%;
+  max-width: 800px;
   display: inline-block;
   position: relative;
 }
@@ -23,7 +25,8 @@ main {
 }
 
 .dropdown button{
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     background-color: rgb(255, 218, 84);
     padding: 10px 15px;
     border: solid 2px rgba(0, 0, 0, 0.595);
@@ -36,7 +39,8 @@ main {
 }
 
 .dropdown .content{
-    min-width: 800px;
+    width: 100%;
+    max-width: 800px;
     display: none;
     position: absolute;
     background-color: rgb(167, 228, 120);
@@ -48,6 +52,10 @@ main {
 
 .dropdown:hover .content{
     display: block;
+}
+
+.dropdown:focus-within .content {
+  display: block;
 }
 
 .dropdown .content a{
