@@ -61,7 +61,7 @@ p.addEventListener("click", () => {
   }
   if (pImage === "../images/characters/rudolf2.png") {
     image.setAttribute("src", "../images/characters/rudolf1.png");
-    h6.textContent = "Emperor's Path";
+    h6.textContent = "Emperor";
   }
 }
 
@@ -91,7 +91,7 @@ p.addEventListener("click", () => {
   }
   if (pImage === "../images/characters/vega2.png") {
     image.setAttribute("src", "../images/characters/vega1.png");
-    h6.textContent = "Starry Nocturne";
+    h6.textContent = "The Glittering Brightest Star";
   }
 }
 });

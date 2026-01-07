@@ -99,7 +99,16 @@
     }
 
     a{
-        color: black;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .page{
+        padding: 4px;
+    }
+
+    #selected{
+        text-decoration: underline;
     }
 
     .suzuka{
@@ -114,18 +123,31 @@
         background-color: rgb(213, 165, 102);
     }
 
+    .vegaquote{
+        color: rgb(73, 47, 12);
+    }
+
     .rudolf{
-        background-color: #f6ec94;
+        background-color: #b59a6e;
+    }
+
+    .rudolfquote{
+        color:#876328;
     }
 
     .mcqueen{
-        background-color: rgb(83, 83, 83);
+        background-color: rgb(171, 134, 191);
     }
 
+    .mcqueenquote{
+        color: #58367b;
+    }
     .mambo{
-        background-color: rgb(49, 34, 7);
+        background-color:#b79483;
     }
-
+    .mamboquote{
+        color: rgb(128, 68, 19);
+    }
     /* Tiles for characters.html  --------------------------------------------------------------------------- */
     .tiles{
     width: 100%;
@@ -247,6 +269,10 @@
     }
 
     .center {
+        text-align: center;
+    }
+
+    .page{
         text-align: center;
     }
 }
