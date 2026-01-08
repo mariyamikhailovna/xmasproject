@@ -1,35 +1,130 @@
-    .mcontainer{
+    
+    .block1{
         background-image: url("../images/fbg.png");
-        background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        min-height: 90vh;
     }
 
-    main {
-    max-width: 600px;
-    width: 100%;
-    min-height: 100vh;
-    margin: 0px auto;
-    background-color: rgba(255, 255, 255, 0.91);
-    padding: 5px 20px 5px 20px;
-    border-left: 4px solid rgba(0, 0, 0, 0.092);
-    border-right: 4px solid rgba(0, 0, 0, 0.092);
+    .block1 img{
+        padding: 10px;
     }
 
-    main h1{ /*Main Text*/
-        color: #ff5500;
-        font-size: 45px;
-        text-align: center;
-        margin: 0;
-        text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    .block2{
+        background-image: url("../images/fbc.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        min-height: auto;
     }
 
-    main a{ /*Links*/
+    .news{
+        width: 80%;
+        background-color: rgb(255, 182, 194);;
+        border: 3px solid rgb(230, 144, 159);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .outerbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        overflow-y: auto;
+        max-height: 500px;
+    }
+
+    .box{
+        width: 100%;
+    }
+    .innerbox img{
+        max-height: 150px;
+        box-shadow: 2px 2px 2px 2px #7474747e;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .innerbox{
+        border: 2px solid black;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .innerbox p{
+        font-size: 0.8em;
+        margin: 5px 0px 10px 0px;
+        color: rgb(2, 125, 2);
+    }
+
+    .game{
+        color: white;
+        background-color: rgb(2, 125, 2);
+        padding: 2px 25px 2px 25px;
+        border-radius: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .update{
+        margin-bottom: 0px;
+        color: white;
+        background-color: grey;
+        padding: 4px 25px 4px 25px;
+        border-radius: 5px;
+    }
+
+    .box a{
+        font-size: 1.3em;
+        color: rgb(68, 67, 67);
+        margin: 0px;
+    }
+
+    .outerbox a{
         text-decoration: none;
     }
 
-    main h2{
-        font-size: 20px;
-        color: rgb(0, 101, 0);
-        text-shadow: 0px 0px 0px;
+    a h6{
+        font-size: 1.3em;
+        border: 2px solid rgb(209, 112, 170);
+        background-color: rgb(240, 143, 201);
+        margin: 5px;
+        padding: 5px 80px 5px 80px;
+        border-radius: 20px;
+        color: rgb(248, 247, 247);
+    }
+
+    .news h1{
+        color: rgb(248, 247, 247);
+        background-color: rgb(230, 144, 159);
+        padding: 10px;
+        margin: 0px;
+        border-radius: 5px; 
+    }
+
+    @media (max-width: 600px) {
+        .block1{
+            background-image: url("../images/fbgm.png");
+            min-height: 90vh;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .block1 img{
+            max-height: 9vh;
+            padding: 5px;
+        }
     }
