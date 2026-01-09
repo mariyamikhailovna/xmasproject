@@ -1,0 +1,100 @@
+body{
+    background-image: url("../images/chara.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.media h1{
+    margin: 10px 0px 0px 0px;
+    color: white;
+    padding: 12px 30% 12px 20px;
+    background-color: rgb(89, 158, 235);
+    display: inline-block;
+}
+
+.eh1 h1{
+    margin: 10px 0px 10px 10px;
+    color: white;
+    background-color: rgb(78, 171, 247);
+    padding: 12px 20px 12px 16px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.carouselWrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    flex: 0 0 calc(97%/3);
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    background: rgb(248, 245, 247);
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    color:#1f1f1f;
+    font-size: 1.2rem;
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(78, 171, 247);
+    font-weight: bold;
+    padding: 5px 80px 5px 80px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    border: 2px solid rgb(78, 171, 247);
+    background-color: rgb(255, 255, 255);
+}
+
+.card img{
+    width: 90%;
+    border-radius: 6px;
+}
+
+.carouselButton{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev{
+    left:1rem;
+}
+.next{
+    right:1rem;
+}
+
+@media (max-width: 600px) {
+  .carouselButton{
+    display: none;
+  }
+  .card {
+    flex: 0 0 100%;
+  }
+}
