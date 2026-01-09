@@ -4,7 +4,7 @@ document.querySelectorAll('.carouselWrapper').forEach(wrapper => {
   const next = wrapper.querySelector('.carouselButton.next');
 
   const card = carousel.querySelector('.card');
-  const gap = parseFloat(getComputedStyle(carousel).gap) || 16;
+  const gap = 16;
   const scrollAmount = (card.offsetWidth + gap) *3;
 
   next.addEventListener('click', () => {
