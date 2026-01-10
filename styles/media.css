@@ -1,72 +1,117 @@
 body{
-    background-image: url("../images/fbf.png");
+    background-image: url("../images/chara.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+.media h1{
+    margin: 10px 0px 0px 0px;
+    color: white;
+    padding: 12px 30% 12px 20px;
+    background-color: rgb(89, 158, 235);
+    display: inline-block;
 }
 
-.dropdown{
-  width: 100%;
-  max-width: 800px;
-  display: inline-block;
-  position: relative;
+.eh1 h1{
+    margin: 10px 0px 10px 10px;
+    color: white;
+    background-color: rgb(78, 171, 247);
+    padding: 12px 20px 12px 16px;
+    font-style: italic;
+    display: inline-block;
+    font-size: 2.5em;
 }
 
-.content{
-    text-align: center;
+.carouselWrapper{
+    position: relative;
+    overflow: hidden;
 }
 
-.dropdown button{
-    width: 100%;
-    max-width: 800px;
-    background-color: rgb(255, 218, 84);
-    padding: 10px 15px;
-    border: solid 2px rgba(0, 0, 0, 0.595);
-    cursor: pointer;
-    font-size: 20px;
+.carousel{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.dropdown:hover button{
-    background-color: rgb(254, 210, 53);
-}
-
-.dropdown .content{
-    width: 100%;
-    max-width: 800px;
+.carousel::-webkit-scrollbar{
     display: none;
+}
+
+.card{
+    flex: 0 0 calc(97%/3);
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    background: rgb(248, 245, 247);
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    color:#1f1f1f;
+    font-size: 1.2rem;
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(78, 171, 247);
+    font-weight: bold;
+    padding: 5px 80px 5px 80px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    border: 2px solid rgb(78, 171, 247);
+    background-color: rgb(255, 255, 255);
+}
+
+.card img{
+    width: 90%;
+    height: auto;
+    max-height: 450px;
+    border-radius: 6px;
+}
+
+.carouselButton{
     position: absolute;
-    background-color: rgb(167, 228, 120);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.814);
-    max-height: 160px;
-    overflow-y: auto;
-    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2;
 }
 
-.dropdown:hover .content{
+.prev{
+    left:1rem;
+}
+.next{
+    right:1rem;
+}
+
+.all a{
     display: block;
-}
-
-.dropdown:focus-within .content {
-  display: block;
-}
-
-.dropdown .content a{
-    display: block;
-    border-bottom: 2px solid black;
-    color:black;
+    width: fit-content;
     text-decoration: none;
-    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px 80px 5px 80px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: 2px solid rgb(57, 128, 186);
+    background-color:rgb(34, 150, 244);
+    margin: 0 auto 30px auto;
 }
 
-a{
-    color:black;
-    text-decoration: none;
+@media (max-width: 600px) {
+  .carouselButton{
+    display: none;
+  }
+  .card {
+    flex: 0 0 100%;
+  }
 }

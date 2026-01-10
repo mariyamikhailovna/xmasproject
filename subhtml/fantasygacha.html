@@ -10,22 +10,19 @@
     <link rel="icon" type="image/png" href="images/suzuka.png">
     <!-- css & js -->
     <link href = "../styles/style.css" rel="stylesheet"/>
-    <link href = "../styles/fantasygacha.css" rel="stylesheet"/>
-    <script src="../scripts/carousel.js" defer></script>
+    <link href  = "../styles/fantasygacha.css" rel="stylesheet"/>
     <!-- title & font -->
-    <title>Fantasy Gacha</title>
+    <title>Uma Musume Media</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Libertinus+Mono&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body class = "fantasygacha">
+<body class = "fantasygacha"> 
     <!-- Header -->
     <header>
     <h2>Qiu's Uma Musume Fanpage</h2>
-    <div class = "center">
     <q cite = "https://umadacchidensetsu.com/eclipse-first-the-rest-nowhere/"><em>Eclipse first, the rest nowhere.</em></q>
-    </div>
 
     <!-- Navigation Bar -->
     <nav>
@@ -39,95 +36,37 @@
     <br>
     </header>
     <!-- Main Content -->
-     <div class = "eh1">
-     <h1 id = "wedabestmusic">Media</h1>
-     </div>
-    <section class = "media">
-      <h1>Anime</h1>
-      <div class = "carouselWrapper">
-        
-        <button class = "carouselButton prev" aria-label="Previous">←</button>
-        <div class = "carousel">
-
-          <article class = "card">
-            <img src = "../images/umayuru.jpg" alt = "Umayuru: Pretty Gray">
-            <h3>Umayuru: Pretty Gray (Streamed Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/cingray.jpg" alt = "Umamusume: Cinderella Gray">
-            <h3>Umamusume: Cinderella Gray (Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/prettyderbys3.jpg" alt = "Umamusume: Pretty Derby Season 3">
-            <h3>Umamusume: Pretty Derby Season 3 (TV Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/ntr.webp" alt = "Umamusume: Road to the Top">
-            <h3>Umamusume: Road to the Top (Streamed Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/prettyderbys3.jpg" alt = "Umamusume: Pretty Derby Season 3">
-            <h3>Umamusume: Pretty Derby Season 2 (TV Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/prettyderbys3.jpg" alt = "Umamusume: Pretty Derby Season 3">
-            <h3>Umamusume: Pretty Derby Season 1 (TV Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
+     <div class = "eh1"><h1>Fantasy Gacha</h1></div>
+    <main>
+      <div class = "daFRAME">
+        <div class = "frameContainer">
+          <div class = "imgFrame">
+          <img id = "img1" src = "">
+          </div>
+          <label id = "label1"></label>
         </div>
-        <button class = "carouselButton next" aria-label="Next">→</button>
+
+        <div class = "frameContainer">
+          <div class = "imgFrame">
+          <img id = "img2" src = "">
+          </div>
+          <label id = "label2"></label>
+        </div>
+
+        <div class = "frameContainer">
+          <div class = "imgFrame">
+          <img id = "img3" src = "">
+          </div>
+          <label id = "label3"></label>
+        </div>
 
       </div>
-
-      <h1>Manga</h1>
-            <div class = "carouselWrapper">
-        
-        <button class = "carouselButton prev" aria-label="Previous">←</button>
-        <div class = "carousel">
-
-          <article class = "card">
-            <img src = "../images/umayuru.jpg" alt = "Umayuru: Pretty Gray">
-            <h3>Umayuru: Pretty Gray (Streamed Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/cingray.jpg" alt = "Umamusume: Cinderella Gray">
-            <h3>Umamusume: Cinderella Gray (Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/prettyderbys3.jpg" alt = "Umamusume: Pretty Derby Season 3">
-            <h3>Umamusume: Pretty Derby Season 3 (TV Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-          <article class = "card">
-            <img src = "../images/ntr.webp" alt = "Umamusume: Road to the Top">
-            <h3>Umamusume: Road to the Top (Streamed Animation)</h3>
-            <a href = "#" class = "cardButton">Watch</a>
-          </article>
-
-        </div>
-        <button class = "carouselButton next" aria-label="Next">→</button>
-
-      </div>
-    </section>
+      <button id="gacha">Gacha it!</button><br>
+    </main>
     <footer>
         <p id = "foot">All Rights Reserved—Cygames INC&copy;</p>
     </footer>
+    <script src = "../scripts/rng.js"></script>
 </body>
 
 </html>

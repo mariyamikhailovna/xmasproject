@@ -65,7 +65,7 @@ p.addEventListener("click", () => {
   }
 }
 
-  if(currentTitle == "Matikanetannhauser"){
+  if(currentTitle == "Mambo"){
   if (pImage === "../images/characters/mambo1.png") {
     image.setAttribute("src", "../images/characters/mambo3.png");
     h6.textContent = "Blue Turbulence";
